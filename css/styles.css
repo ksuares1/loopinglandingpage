@@ -1,12 +1,32 @@
 div{
     position:absolute;
 }
-
-
+*{
+    box-sizing: border-box;
+    
+}
 .nav-items{
     list-style: none;
     display:flex;
     position: relative;
-    top:-10px;
-    left:1200px;
+    top:-10px; 
+    left:1200px; 
+    color:white;
+}
+
+.hero-text{
+    border-color: white;
+}
+
+
+.hero-message{
+    color:white;
+}
+
+
+body{
+    background-image: url("../assets/images/desktop/image-hero.jpg");
+    min-height:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
