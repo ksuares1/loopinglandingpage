@@ -3,7 +3,7 @@ div{
 }
 *{
     box-sizing: border-box;
-    
+
 }
 .nav-items{
     list-style: none;
@@ -15,12 +15,19 @@ div{
 }
 
 .hero-text{
-    border-color: white;
+    border: solid white;
+    margin:50px;
+    width:100%;
+    height:200px;
+    display:flex;
 }
 
 
 .hero-message{
     color:white;
+    display: flex;
+    flex:1;
+    font-family: 'Alata', sans-serif;
 }
 
 
@@ -30,3 +37,12 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
 }
+
+/* Footer */
+ .attribution { 
+    font-size: 11px;
+     text-align: center; 
+    }
+  .attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
