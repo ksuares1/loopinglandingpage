@@ -53,15 +53,37 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+/* 
 .info-pic{
     position:relative;
     top:10px;
-}
+} */
 
 .interactive-img{
-
+    width:650px;
+    height:380px;
+    position:relative;
+    top: 10px;
+    left:-500px;
 }
+
+.info-text-section{
+    position:relative;
+    top:30px;
+    margin:50px;
+    right: -200px;
+}
+
+
+.creations-section{
+    position:relative;
+    top:30px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+
 /* Footer */
  .attribution { 
     font-size: 11px;
