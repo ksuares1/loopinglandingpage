@@ -34,10 +34,34 @@ div{
 body{
     background-image: url("../assets/images/desktop/image-hero.jpg");
     /* height:15%; */
+    margin-left: 0;
+    padding-bottom: 20px;
     background-repeat: no-repeat;
     background-size:cover;
 }
 
+
+.info-section{
+    margin:750px;
+    position: absolute;
+    top: 10px;
+    right:-250px;
+}
+
+.info-section{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info-pic{
+    position:relative;
+    top:10px;
+}
+
+.interactive-img{
+
+}
 /* Footer */
  .attribution { 
     font-size: 11px;
