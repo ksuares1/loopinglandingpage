@@ -56,9 +56,9 @@ body{
     flex-wrap: wrap;
 }
 
-.info-section > .info-text-section{
+/* .info-section > .info-text-section{
     flex:1; 
-}
+} */
 /* 
 .info-pic{
     position:relative;
@@ -70,27 +70,38 @@ body{
     height:380px;
     position:relative;
     top: 10px;
-    left:-500px;
+    right:300px;
 }
 
 .info-text-section{
     position:relative;
     top: -350px;
-    right: -250px;
+    left: 350px;
     margin: 50px;
 }
 
 
 .creations-section{
     position:relative;
-    top:1300px;
+    top:750px;
     display:flex;
     flex-direction:row;
-    flex-wrap: wrap;
-    /* margin:300px; */
+}
+
+.creations-section{
+    position: relative;
+    top: 670px;
+    left:-200px;
+    display: flex;
+    justify-content: space-around;  
 }
 
 
+.creations-btn{
+    background-color:white;
+    border:1px solid black;
+    /* border-radius: */
+}
 /* Footer */
  .attribution { 
     font-size: 11px;
