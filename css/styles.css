@@ -1,25 +1,26 @@
-div{
-    position:absolute;
-}
 *{
     box-sizing: border-box;
 
 }
 .nav-items{
     list-style: none;
-    display:flex;
+    display:flex; 
     position: relative;
     top:-10px; 
-    left:1200px; 
+    left:1100px; 
     color:white;
+    justify-content: space-between;
+}
+.nav-menu{
+    margin:40px;
 }
 
 .hero-text{
     border: solid white;
-    margin:50px;
-    width:100%;
+    margin:150px;
+    width:20%;
     height:200px;
-    display:flex;
+
 }
 
 
@@ -27,6 +28,7 @@ div{
     color:white;
     display: flex;
     flex:1;
+    width:35%;
     font-family: 'Alata', sans-serif;
 }
 
@@ -53,6 +55,10 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.info-section > .info-text-section{
+    flex:1; 
+}
 /* 
 .info-pic{
     position:relative;
@@ -69,18 +75,19 @@ body{
 
 .info-text-section{
     position:relative;
-    top:30px;
-    margin:50px;
-    right: -200px;
+    top: -350px;
+    right: -250px;
+    margin: 50px;
 }
 
 
 .creations-section{
     position:relative;
-    top:30px;
+    top:1300px;
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
+    /* margin:300px; */
 }
 
 
