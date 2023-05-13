@@ -5,7 +5,8 @@
 
 body{
     background-image: url("../assets/images/desktop/image-hero.jpg");
-    width:1000px;
+    width:700px;
+    height:25%;
     margin-left: 0;
     padding-bottom: 20px;
     background-repeat: no-repeat;
@@ -48,18 +49,11 @@ body{
 
 
 .info-section{
-    margin:750px;
+    margin:1000px;
     position: absolute;
     top: 10px;
-    right:-250px;
+    right:-550px;
 }
-
-.info-section{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 
 
 .interactive-img{
@@ -73,8 +67,10 @@ body{
 .info-text-section{
     position:relative;
     top: -350px;
-    left: 350px;
+    left: 450px;
     margin: 50px;
+    line-height: 1.5;
+    width:65%;
 }
 
 
@@ -82,7 +78,7 @@ body{
 .creations-section{
     position: relative;
     flex-direction:row;
-    top: 670px;
+    top: 1000px;
     left:200px;
     display: flex;
     justify-content: space-around;  
@@ -95,12 +91,31 @@ body{
  .creations-btn{
     background-color:white;
     border:1px solid black;
+    position:relative;
+    top:10px;
+    left:250px;
     margin:10px;
     padding:10px; 
     width:15%;
     height:15%;
     
 }
+
+/* Images */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  flex-basis: calc(25% - 20px);
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+
 /* Footer */
  .attribution { 
     font-size: 11px;
