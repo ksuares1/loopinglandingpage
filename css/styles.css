@@ -3,15 +3,16 @@
 
 }
 
-body{
-    background-image: url("../assets/images/desktop/image-hero.jpg");
-    width:700px;
-    height:25%;
-    margin-left: 0;
-    padding-bottom: 20px;
-    background-repeat: no-repeat;
-    background-size:cover;
+ body {
+  background-image: url("../assets/images/desktop/image-hero.jpg");
+  height: 100vh; /* set the height to fill the viewport */
+  margin: 0; /* remove any default margins */
+  padding: 20px; /* add some padding to the body */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
 .nav-items{
     list-style: none;
     display:flex; 
@@ -46,12 +47,10 @@ body{
 
 
 
-
-
 .info-section{
-    margin:1000px;
+
     position: absolute;
-    top: 10px;
+    top:900px;
     right:-550px;
 }
 
@@ -70,7 +69,7 @@ body{
     left: 450px;
     margin: 50px;
     line-height: 1.5;
-    width:65%;
+    width:20%;
 }
 
 
@@ -78,8 +77,8 @@ body{
 .creations-section{
     position: relative;
     flex-direction:row;
-    top: 1000px;
-    left:200px;
+    top:750px;
+    left:-150px;
     display: flex;
     justify-content: space-around;  
 }
@@ -93,29 +92,26 @@ body{
     border:1px solid black;
     position:relative;
     top:10px;
-    left:250px;
+    left:120px;
     margin:10px;
     padding:10px; 
-    width:15%;
+    width:6%;
     height:15%;
     
 }
 
 /* Images */
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+.image-container{
+    position:relative;
+    top:790px;
+    left:180px;
 }
 
-.box {
-  flex-basis: calc(25% - 20px);
-  height: 100px;
-  margin-bottom: 20px;
+.img-row{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between; 
 }
-
-
 /* Footer */
  .attribution { 
     font-size: 11px;
