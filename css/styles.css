@@ -12,18 +12,27 @@
   background-size: cover;
 }
 
+.logo-container {
+  height: 50px; /* adjust the height as needed */
+}
 
 .nav-items{
+    height: 5%;
     list-style: none;
-    display:flex; 
+    display: flex;
     position: relative;
-    top:-10px; 
-    left:1100px; 
-    color:white;
-    /* justify-content: space-between; */
+    left: 1000px;
+    color: white;
+    margin: 0;
 }
+
+.nav-items .item {
+  /* margin-bottom: 10px; */
+  padding: 10px 20px;
+}
+ 
 .nav-menu{
-    margin:40px;
+ margin:15px;
 }
 
 .hero-text{
@@ -82,6 +91,8 @@
 
     .creations-header{
         font-size: 24px;
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
     }
 
  .creations-btn{
@@ -101,13 +112,26 @@
 .image-container{
     position:relative;
     top:790px;
-    left:180px;
+    left:170px;
 }
 
 .img-row{
     display:flex;
     flex-direction: row;
-    justify-content: space-between; 
+     gap: 5px; 
+    
+}
+
+
+.grid-img{
+    height:400px;
+    width:250px;
+}
+
+.images-two{
+    margin:20px;
+    position:relative;
+    right:20px;   
 }
 /* Footer */
  .attribution { 
