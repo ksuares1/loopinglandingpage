@@ -29,10 +29,8 @@
 .hero-text{
     border: 1px solid white;
     margin:150px;
-    width:50%;
+    width:30%;
     height:200px;
-    /* position: relative;
-    left:-40px; */
 }
 
 
@@ -44,7 +42,6 @@
     font-family: 'Alata', sans-serif;
     font-size:36px;
 }
-
 
 
 .info-section{
