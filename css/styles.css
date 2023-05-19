@@ -155,14 +155,22 @@
     opacity:5;
 }
 /* Footer */
-    .footer{
-     background-color: hsl(0, 0%, 0%);
-      position:relative;
-      top:800px;
-      left: -110px;
-      height:15%;
-      width:100%;
-      margin:90px;
+  /* .footer {
+  background-color: hsl(0, 0%, 0%);
+  height: 15%;
+  width: 100%;
+  padding: 0 90px; 
+  box-sizing: border-box; 
+}  */
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  top:800px;
+  background-color:hsl(0, 0%, 0%);
+  color: white;
 }
     .ft-logo{
     width: 15%;
