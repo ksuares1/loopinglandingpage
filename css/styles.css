@@ -123,6 +123,7 @@
 
 .creations-btn:hover{
     background-color: black;
+    transition:0.2s;
     cursor: pointer;
     color:white;
 }
