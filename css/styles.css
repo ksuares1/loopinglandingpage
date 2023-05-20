@@ -146,6 +146,10 @@
     height:400px;
     width:250px;
 }
+.grid-img:hover{
+    cursor: pointer;
+    opacity:0.5;
+}
 
 .images-two{
     margin:20px;
