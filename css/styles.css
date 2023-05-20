@@ -167,9 +167,9 @@
     font-weight:300;
 }
 
-.fisheye{
-    opacity:5;
-}
+ .img-txt:hover{
+    color:black;
+ }
 /* Footer */
   /* .footer {
   background-color: hsl(0, 0%, 0%);
